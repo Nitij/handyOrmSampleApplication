@@ -1,0 +1,18 @@
+D:\Nitij\Technical Learning\Javascript\JavaScript ORM\JavascriptORM\Shared\bin\Debug\Shared.dll
+D:\Nitij\Technical Learning\Javascript\JavaScript ORM\JavascriptORM\Shared\bin\Debug\Shared.pdb
+D:\Nitij\Technical Learning\Javascript\JavaScript ORM\JavascriptORM\Shared\obj\Debug\Shared.dll
+D:\Nitij\Technical Learning\Javascript\JavaScript ORM\JavascriptORM\Shared\obj\Debug\Shared.pdb
+D:\Personal\Technology\Javascript\JavascriptORM\JavascriptORM\Shared\bin\Debug\Shared.dll
+D:\Personal\Technology\Javascript\JavascriptORM\JavascriptORM\Shared\bin\Debug\Shared.pdb
+D:\Personal\Technology\Javascript\JavascriptORM\JavascriptORM\Shared\obj\Debug\ResolveAssemblyReference.cache
+D:\Personal\Technology\Javascript\JavascriptORM\JavascriptORM\Shared\obj\Debug\Shared.dll
+D:\Personal\Technology\Javascript\JavascriptORM\JavascriptORM\Shared\obj\Debug\Shared.pdb
+C:\Users\admin\Desktop\JavascriptORM\JavascriptORM\Shared\bin\Debug\Shared.dll
+C:\Users\admin\Desktop\JavascriptORM\JavascriptORM\Shared\bin\Debug\Shared.pdb
+C:\Users\admin\Desktop\JavascriptORM\JavascriptORM\Shared\obj\Debug\Shared.dll
+C:\Users\admin\Desktop\JavascriptORM\JavascriptORM\Shared\obj\Debug\Shared.pdb
+D:\Personal\Technology\Javascript\JavascriptORM\JavascriptORM\JavascriptORM\Shared\bin\Debug\Shared.dll
+D:\Personal\Technology\Javascript\JavascriptORM\JavascriptORM\JavascriptORM\Shared\bin\Debug\Shared.pdb
+D:\Personal\Technology\Javascript\JavascriptORM\JavascriptORM\JavascriptORM\Shared\obj\Debug\ResolveAssemblyReference.cache
+D:\Personal\Technology\Javascript\JavascriptORM\JavascriptORM\JavascriptORM\Shared\obj\Debug\Shared.dll
+D:\Personal\Technology\Javascript\JavascriptORM\JavascriptORM\JavascriptORM\Shared\obj\Debug\Shared.pdb

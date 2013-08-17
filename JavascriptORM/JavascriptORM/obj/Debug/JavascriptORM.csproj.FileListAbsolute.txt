@@ -1,0 +1,37 @@
+D:\Nitij\Technical Learning\Javascript\JavaScript ORM\JavascriptORM\JavascriptORM\bin\JavascriptORM.dll
+D:\Nitij\Technical Learning\Javascript\JavaScript ORM\JavascriptORM\JavascriptORM\bin\JavascriptORM.pdb
+D:\Nitij\Technical Learning\Javascript\JavaScript ORM\JavascriptORM\JavascriptORM\obj\Debug\JavascriptORM.dll
+D:\Nitij\Technical Learning\Javascript\JavaScript ORM\JavascriptORM\JavascriptORM\obj\Debug\JavascriptORM.pdb
+D:\Personal\Technology\Javascript\JavascriptORM\JavascriptORM\JavascriptORM\bin\JavascriptORM.dll
+D:\Personal\Technology\Javascript\JavascriptORM\JavascriptORM\JavascriptORM\bin\JavascriptORM.pdb
+D:\Personal\Technology\Javascript\JavascriptORM\JavascriptORM\JavascriptORM\obj\Debug\ResolveAssemblyReference.cache
+D:\Personal\Technology\Javascript\JavascriptORM\JavascriptORM\JavascriptORM\obj\Debug\JavascriptORM.dll
+D:\Personal\Technology\Javascript\JavascriptORM\JavascriptORM\JavascriptORM\obj\Debug\JavascriptORM.pdb
+D:\Personal\Technology\Javascript\JavascriptORM\JavascriptORM\JavascriptORM\bin\Shared.dll
+D:\Personal\Technology\Javascript\JavascriptORM\JavascriptORM\JavascriptORM\bin\Shared.pdb
+D:\Personal\Technology\Javascript\JavascriptORM\JavascriptORM\JavascriptORM\bin\Controller.dll
+D:\Personal\Technology\Javascript\JavascriptORM\JavascriptORM\JavascriptORM\bin\Controller.pdb
+D:\Personal\Technology\Javascript\JavascriptORM\JavascriptORM\JavascriptORM\bin\DataAccessManager.dll
+D:\Personal\Technology\Javascript\JavascriptORM\JavascriptORM\JavascriptORM\bin\DataAccessManager.pdb
+C:\Users\admin\Desktop\JavascriptORM\JavascriptORM\JavascriptORM\bin\JavascriptORM.dll
+C:\Users\admin\Desktop\JavascriptORM\JavascriptORM\JavascriptORM\bin\JavascriptORM.pdb
+C:\Users\admin\Desktop\JavascriptORM\JavascriptORM\JavascriptORM\bin\Controller.dll
+C:\Users\admin\Desktop\JavascriptORM\JavascriptORM\JavascriptORM\bin\Shared.dll
+C:\Users\admin\Desktop\JavascriptORM\JavascriptORM\JavascriptORM\bin\DataAccessManager.dll
+C:\Users\admin\Desktop\JavascriptORM\JavascriptORM\JavascriptORM\bin\Controller.pdb
+C:\Users\admin\Desktop\JavascriptORM\JavascriptORM\JavascriptORM\bin\Shared.pdb
+C:\Users\admin\Desktop\JavascriptORM\JavascriptORM\JavascriptORM\bin\DataAccessManager.pdb
+C:\Users\admin\Desktop\JavascriptORM\JavascriptORM\JavascriptORM\obj\Debug\JavascriptORM.csprojResolveAssemblyReference.cache
+C:\Users\admin\Desktop\JavascriptORM\JavascriptORM\JavascriptORM\obj\Debug\JavascriptORM.dll
+C:\Users\admin\Desktop\JavascriptORM\JavascriptORM\JavascriptORM\obj\Debug\JavascriptORM.pdb
+D:\Personal\Technology\Javascript\JavascriptORM\JavascriptORM\JavascriptORM\JavascriptORM\bin\JavascriptORM.dll
+D:\Personal\Technology\Javascript\JavascriptORM\JavascriptORM\JavascriptORM\JavascriptORM\bin\JavascriptORM.pdb
+D:\Personal\Technology\Javascript\JavascriptORM\JavascriptORM\JavascriptORM\JavascriptORM\bin\Controller.dll
+D:\Personal\Technology\Javascript\JavascriptORM\JavascriptORM\JavascriptORM\JavascriptORM\bin\Shared.dll
+D:\Personal\Technology\Javascript\JavascriptORM\JavascriptORM\JavascriptORM\JavascriptORM\bin\DataAccessManager.dll
+D:\Personal\Technology\Javascript\JavascriptORM\JavascriptORM\JavascriptORM\JavascriptORM\bin\Controller.pdb
+D:\Personal\Technology\Javascript\JavascriptORM\JavascriptORM\JavascriptORM\JavascriptORM\bin\Shared.pdb
+D:\Personal\Technology\Javascript\JavascriptORM\JavascriptORM\JavascriptORM\JavascriptORM\bin\DataAccessManager.pdb
+D:\Personal\Technology\Javascript\JavascriptORM\JavascriptORM\JavascriptORM\JavascriptORM\obj\Debug\ResolveAssemblyReference.cache
+D:\Personal\Technology\Javascript\JavascriptORM\JavascriptORM\JavascriptORM\JavascriptORM\obj\Debug\JavascriptORM.dll
+D:\Personal\Technology\Javascript\JavascriptORM\JavascriptORM\JavascriptORM\JavascriptORM\obj\Debug\JavascriptORM.pdb
