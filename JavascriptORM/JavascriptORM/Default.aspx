@@ -43,7 +43,7 @@
                 contactListHtml += "<td>" + r[i].name + "</td>";
                 contactListHtml += "<td>" + r[i].phone + "</td>";
                 contactListHtml += "<td>" + r[i].address + "</td>";
-                contactListHtml += "<td><div class = 'button' onclick = \"EditContact('" + r[i].id + "', '" + r[i].name + "', '" + r[i].phone + "', '" + r[i].address + "');return true; \">Edit</div></td>";
+                contactListHtml += "<td><div class = 'button' onclick = \"EditContact(" + i + ");return true; \">Edit</div></td>";
                 contactListHtml += "<td><div class = 'button' onclick = \"currentOperation = 'Delete';SaveRecord('" + r[i].id + "');return true;\" >Delete</div></td>";
                 contactListHtml += "</tr>";
             }
@@ -53,12 +53,13 @@
         }
 
         //Edit the contact
-        function EditContact(id, name, phone, address) {
+        function EditContact(idx) {
+            var r = myModel.results;
             currentOperation = 'Update';
-            $("#" + myModel.columnElementId("id")).val(id);
-            $("#" + myModel.columnElementId("name")).val(name);
-            $("#" + myModel.columnElementId("phone")).val(phone);
-            $("#" + myModel.columnElementId("address")).val(address);
+            $("#" + myModel.columnElementId("id")).val(r[idx].id);
+            $("#" + myModel.columnElementId("name")).val(r[idx].name);
+            $("#" + myModel.columnElementId("phone")).val(r[idx].phone);
+            $("#" + myModel.columnElementId("address")).val(r[idx].address);
             Refresh();
         }
 
@@ -100,6 +101,13 @@
             $("#divContactList").html(waitHtml);
             myModel.operation("Read", null, null).then(function (d) {
                 myModel.results = d.d;
+                var i = 0;
+                //we need to unescape the values
+                for (; i < myModel.results.length; i++) {
+                    myModel.results[i].name = HandyHelper.htmlUnescape(myModel.results[i].name);
+                    myModel.results[i].phone = HandyHelper.htmlUnescape(myModel.results[i].phone);
+                    myModel.results[i].address = HandyHelper.htmlUnescape(myModel.results[i].address);
+                }
                 RefreshContactList(myModel.results);
                 currentOperation = "Read";
                 Refresh();

@@ -89,9 +89,9 @@ namespace Controller
                         output.Add(new
                         {
                             id = row["id"].ToString(),
-                            name = row["name"].ToString(),
-                            phone = row["phone"].ToString(),
-                            address = row["address"].ToString()
+                            name = HtmlEscape(row["name"].ToString()),
+                            phone = HtmlEscape(row["phone"].ToString()),
+                            address = HtmlEscape(row["address"].ToString())
                         });                        
                     }
                     break;
@@ -116,8 +116,28 @@ namespace Controller
             foreach (var item in vals)
             {
                 if(!columnMap.ContainsKey(item.ColName))
-                    columnMap.Add(item.ColName, item.ColValue);
+                    columnMap.Add(item.ColName, HtmlUnEscape(item.ColValue));
             }                 
+        }
+
+        /// <summary>
+        /// Encodes the string in html form
+        /// </summary>
+        /// <param name="str"></param>
+        /// <returns></returns>
+        private String HtmlEscape(String str)
+        {
+            return System.Net.WebUtility.HtmlEncode(str);
+        }
+
+        /// <summary>
+        /// Decodes the string from html form
+        /// </summary>
+        /// <param name="str"></param>
+        /// <returns></returns>
+        private String HtmlUnEscape(String str)
+        {
+            return System.Net.WebUtility.HtmlDecode(str);
         }
     }
 }
