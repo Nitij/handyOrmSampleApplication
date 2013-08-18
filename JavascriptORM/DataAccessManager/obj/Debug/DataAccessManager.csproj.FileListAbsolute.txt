@@ -24,3 +24,10 @@ D:\Personal\Technology\Javascript\JavascriptORM\JavascriptORM\JavascriptORM\Data
 D:\Personal\Technology\Javascript\JavascriptORM\JavascriptORM\JavascriptORM\DataAccessManager\obj\Debug\ResolveAssemblyReference.cache
 D:\Personal\Technology\Javascript\JavascriptORM\JavascriptORM\JavascriptORM\DataAccessManager\obj\Debug\DataAccessManager.dll
 D:\Personal\Technology\Javascript\JavascriptORM\JavascriptORM\JavascriptORM\DataAccessManager\obj\Debug\DataAccessManager.pdb
+C:\Users\admin\Documents\GitHub\handyOrmSampleApplication\JavascriptORM\DataAccessManager\bin\Debug\DataAccessManager.dll
+C:\Users\admin\Documents\GitHub\handyOrmSampleApplication\JavascriptORM\DataAccessManager\bin\Debug\DataAccessManager.pdb
+C:\Users\admin\Documents\GitHub\handyOrmSampleApplication\JavascriptORM\DataAccessManager\bin\Debug\Shared.dll
+C:\Users\admin\Documents\GitHub\handyOrmSampleApplication\JavascriptORM\DataAccessManager\bin\Debug\Shared.pdb
+C:\Users\admin\Documents\GitHub\handyOrmSampleApplication\JavascriptORM\DataAccessManager\obj\Debug\DataAccessManager.csprojResolveAssemblyReference.cache
+C:\Users\admin\Documents\GitHub\handyOrmSampleApplication\JavascriptORM\DataAccessManager\obj\Debug\DataAccessManager.dll
+C:\Users\admin\Documents\GitHub\handyOrmSampleApplication\JavascriptORM\DataAccessManager\obj\Debug\DataAccessManager.pdb

@@ -27,6 +27,14 @@ namespace Shared
     }
 
     /// <summary>
+    /// Class to provide custom exception messages
+    /// </summary>
+    public static class Exceptions
+    {
+        public const String Error = "Some error has occured";
+    }
+
+    /// <summary>
     /// ColumnValues Class
     /// </summary>
     public class ColumnValues

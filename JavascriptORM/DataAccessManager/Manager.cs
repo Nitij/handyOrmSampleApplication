@@ -62,6 +62,20 @@ namespace DataAccessManager
             connection.Close();
         }
 
+        /// <summary>
+        /// Returns the SqlCommand object based on the type of operation passed
+        /// </summary>
+        /// <param name="operationType"></param>
+        /// <returns></returns>
+        private SqlCommand GetCommand(String operationType)
+        {
+            String dataQuery = OperationType.Map[operationType];
+            SqlConnection connection = GetConnection();
+            SqlCommand command = new SqlCommand(dataQuery, connection);
+
+            return command;
+        }
+
         #endregion Sql Methods
 
         #region CRUD
@@ -76,9 +90,7 @@ namespace DataAccessManager
             DataTable dataTable = new DataTable();          
 
             SqlDataReader dataReader;
-            String readDataQuery = OperationType.Map[operationType];
-            SqlConnection connection = GetConnection();
-            SqlCommand command = new SqlCommand(readDataQuery, connection);
+            SqlCommand command = GetCommand(operationType);
 
             dataTable.Columns.Add("id");
             dataTable.Columns.Add("name");
@@ -95,7 +107,7 @@ namespace DataAccessManager
                                    dataReader["address"].ToString());
             }
 
-            CloseConnection(connection);
+            CloseConnection(command.Connection);
             return dataTable;
         }
 
@@ -108,9 +120,7 @@ namespace DataAccessManager
         public Int32 InsertContact(String operationType, Dictionary<String, String> data)
         {
             Int32 retVal;
-            String insertDataQuery = OperationType.Map[operationType];
-            SqlConnection connection = GetConnection();
-            SqlCommand command = new SqlCommand(insertDataQuery, connection);
+            SqlCommand command = GetCommand(operationType);
 
             String name = data["name"];
             String phone = data["phone"];
@@ -121,7 +131,7 @@ namespace DataAccessManager
             command.Parameters.Add(GetParameter("@address", address, DbType.String));
             
             retVal = command.ExecuteNonQuery();
-            CloseConnection(connection);
+            CloseConnection(command.Connection);
             return retVal;
         }
 
@@ -134,9 +144,7 @@ namespace DataAccessManager
         public Int32 UpdateContact(String operationType, Dictionary<String, String> data)
         {
             Int32 retVal;
-            String updateDataQuery = OperationType.Map[operationType];
-            SqlConnection connection = GetConnection();
-            SqlCommand command = new SqlCommand(updateDataQuery, connection);
+            SqlCommand command = GetCommand(operationType);
 
             String id = data["id"];
             String name = data["name"];
@@ -149,7 +157,7 @@ namespace DataAccessManager
             command.Parameters.Add(GetParameter("@address", address, DbType.String));
 
             retVal = command.ExecuteNonQuery();
-            CloseConnection(connection);
+            CloseConnection(command.Connection);
             return retVal;
         }
 
@@ -162,16 +170,14 @@ namespace DataAccessManager
         public Object Delete(String operationType, Dictionary<String, String> data)
         {
             Int32 retVal;
-            String deleteDataQuery = OperationType.Map[operationType];
-            SqlConnection connection = GetConnection();
-            SqlCommand command = new SqlCommand(deleteDataQuery, connection);
+            SqlCommand command = GetCommand(operationType);
 
             String id = data["id"];
 
             command.Parameters.Add(GetParameter("@id", id, DbType.Int32));
 
             retVal = command.ExecuteNonQuery();
-            CloseConnection(connection);
+            CloseConnection(command.Connection);
             return retVal;
         }
 

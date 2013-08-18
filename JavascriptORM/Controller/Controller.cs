@@ -44,25 +44,32 @@ namespace Controller
             Object retVal = new Object();
             List<Object> output = new List<Object>();
 
-            switch (operationType)
+            //Implementing a global try-catch block, never use this for production version 
+            try
             {
-                case OperationType.Read:
-                    retVal = manager.Read(operationType);
-                    ConvertDataTable((DataTable)retVal, output, operationType);
-                    break;
-                case OperationType.Insert:
-                    retVal = manager.InsertContact(operationType, data);
-                    break;
-                case OperationType.Update:
-                    retVal = manager.UpdateContact(operationType, data);
-                    break;
-                case OperationType.Delete:
-                    retVal = manager.Delete(operationType, data);
-                    break;
-                default:
-                    break;
+                switch (operationType)
+                {
+                    case OperationType.Read:
+                        retVal = manager.Read(operationType);
+                        ConvertDataTable((DataTable)retVal, output, operationType);
+                        break;
+                    case OperationType.Insert:
+                        retVal = manager.InsertContact(operationType, data);
+                        break;
+                    case OperationType.Update:
+                        retVal = manager.UpdateContact(operationType, data);
+                        break;
+                    case OperationType.Delete:
+                        retVal = manager.Delete(operationType, data);
+                        break;
+                    default:
+                        break;
+                }
             }
-
+            catch(Exception exception)
+            {
+                throw new Exception(String.Concat(Exceptions.Error, ": ", exception.Message));
+            }
             return output;
         }
 
