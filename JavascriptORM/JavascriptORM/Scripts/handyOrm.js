@@ -85,7 +85,6 @@ var HandyHelper = null;
             var i = 0;
             var attribControl = null;
             var params = null;
-            var setResults = this.setResults;
 
             //set the last operation value
             this._lastOperation = operationType;
